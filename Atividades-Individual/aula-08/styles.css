@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    color: antiquewhite;
+    background-color: #151515;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.inicio {
+    
+    margin: 22px;
+
+}
+
+.banner{
+
+    height: 200px;
+    background-image: url(https://images.alphacoders.com/491/491231.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+    
