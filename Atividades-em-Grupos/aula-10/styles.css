@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: #fefcfc; */
+  
 }
 body{
     background-color: black;
@@ -12,16 +12,17 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     font-size: 20px;    
     font-weight: bolder;
     background-color: crimson;
-    /* padding: 15px; */
+    /* padding: 10px; */
+    /* margin: 5px; */
 }
 
 .cabeçalho .lista-menu{
     justify-content: right;
     text-align: center;
+    padding: 10px;
 }
     
 .lista-menu{
@@ -66,13 +67,14 @@ body{
 
 .card-hulk{
     width: fit-content;
-    /* display: inline-block; */
-    /* margin: 25px; */
     width: 400px;
-    /* padding: 10px; */
     background-color: green;
     border-radius: 12px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
  .favorito-icone {
@@ -110,17 +112,19 @@ body{
 .card-hulk button{
     font-size: 20px;
     background-color: rgb(9, 238, 100);
-    /* padding: 10px; */
+    margin: 5px auto;
+    width: 150px;
+    height: 50px;
 }
 
 .card-thor{
     width:fit-content;
-    /* display: inline-block; */
-    /* margin: 25px; */
     width: 400px;
     background-color: #3131ee;
     border-radius: 12px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .fundo-thor{
@@ -151,16 +155,19 @@ body{
 .card-thor button{
     font-size: 20px;
     background-color: #7f7ffd;
+    margin: 5px auto;
+    width: 150px;
+    height: 50px;
 }
 
 .card-iron-man{
     width: fit-content;
-    /* display: inline-block; */
-    /* margin: 25px; */
     width: 400px;
     background-color: #d50303;
     border-radius: 12px; 
-    position: relative;  
+    position: relative; 
+    display: flex;
+    flex-direction: column; 
 }
 
 .fundo-iron-man{
@@ -190,13 +197,43 @@ body{
 .card-iron-man button{
     font-size: 20px;
     background-color: rgb(255, 113, 113);
+    margin: 5px auto;
+    width: 150px;
+    height: 50px;
 }
 
-footer{
-    /* color: white; */
+.roda-pe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color:crimson;
-    height: 50px;
+    /* height: 100px; */
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
+}
+.icone{
+   display:flex;
+   margin: 5px auto;
+    width:100px;
+    height: 75px;
+    
+}
+
+.video-treiler h1{
+    color: #c2c2c2;
+    text-align: center;
+}
+.video-treiler h2{
+    color: #c2c2c2;
+    text-align: center;
+}
+
+.video-treiler{
+    display: block;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+   margin: 0 auto;
+   padding: 10px;
 }
